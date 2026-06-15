@@ -1,0 +1,6 @@
+@VinheriaAgnelloCRUD_HostAddress = http://localhost:5008
+
+GET {{VinheriaAgnelloCRUD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
