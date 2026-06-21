@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Vinheria Agnello</string>
+    <string name="brand_logo_description">Logomarca da Vinheria Agnello</string>
+    <string name="home_welcome">Bem-vindo à sua adega particular. Mantenha cada garrafa organizada e o estoque sempre atualizado.</string>
+    <string name="open_stock">Abrir estoque</string>
+
+    <string name="stock_title">Estoque de vinhos</string>
+    <string name="back">Voltar</string>
+    <string name="add_wine">Adicionar vinho</string>
+    <string name="edit_wine">Editar vinho</string>
+    <string name="wine_actions">Ações para %1$s</string>
+    <string name="wine_grape">Uva: %1$s</string>
+    <string name="wine_type">Tipo: %1$s</string>
+
+    <string name="field_name">Nome *</string>
+    <string name="field_country">País</string>
+    <string name="field_region">Região</string>
+    <string name="field_grape">Uva</string>
+    <string name="field_type">Tipo</string>
+    <string name="field_stock_quantity">Quantidade em estoque *</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Salvar</string>
+    <string name="saving">Salvando…</string>
+
+    <string name="delete_wine_title">Excluir vinho?</string>
+    <string name="delete_wine_confirmation">Tem certeza de que deseja excluir este vinho do estoque?</string>
+    <string name="delete">Excluir</string>
+
+    <string name="empty_stock_title">Sua adega está vazia</string>
+    <string name="empty_stock_message">Toque no botão + para cadastrar o primeiro vinho no estoque.</string>
+    <string name="stock_load_failed_title">Não foi possível carregar o estoque</string>
+    <string name="stock_load_failed_message">Verifique o banco de dados local e tente carregar o estoque novamente.</string>
+    <string name="retry">Tentar novamente</string>
+
+    <string name="error_stock_load">Não foi possível carregar o estoque de vinhos.</string>
+    <string name="error_wine_not_found">Vinho não encontrado. Ele pode ter sido excluído.</string>
+    <string name="error_wine_load">Não foi possível carregar este vinho.</string>
+    <string name="error_wine_delete">Não foi possível excluir este vinho.</string>
+    <string name="error_wine_save">Não foi possível salvar este vinho.</string>
+    <string name="validation_name_required">O nome é obrigatório.</string>
+    <string name="validation_stock_required">A quantidade em estoque é obrigatória.</string>
+    <string name="validation_stock_non_negative">Informe uma quantidade válida e não negativa.</string>
+    <string name="validation_review_fields">Revise os campos destacados.</string>
+
+    <plurals name="stock_quantity">
+        <item quantity="one">%1$d unidade em estoque</item>
+        <item quantity="other">%1$d unidades em estoque</item>
+    </plurals>
+</resources>
